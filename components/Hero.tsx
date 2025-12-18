@@ -44,8 +44,8 @@ export default function Hero() {
             priority
           />
         </div>
-        <p className="text-xl md:text-2xl text-gray-200 mb-12 max-w-2xl mx-auto drop-shadow-lg">
-          Professional film developing and processing for photographers who value the timeless quality of analog photography
+        <p className="text-xl md:text-2xl text-gray-200 mb-12 mt-120 max-w-2xl mx-auto drop-shadow-lg">
+          Professional film developing and processing
         </p>
         <button
           onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
