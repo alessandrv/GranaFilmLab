@@ -36,10 +36,11 @@ export default function Hero() {
       <div className="relative z-10 max-w-4xl mx-auto text-center">
         <div className="mb-8 flex justify-center">
           <Image
+            src="/logo.png"
             alt="GranaLab - Analog Film Laboratory"
             width={600}
             height={200}
-            className="w-full max-w-2xl h-auto drop-shadow-2xl"
+            className="w-full max-w-2xl h-auto drop-shadow-2xl hidden"
             priority
           />
         </div>
